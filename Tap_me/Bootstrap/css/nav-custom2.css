@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+.nav-custom2{	
+    color:white;
+}
+a:hover{
+	color: orange;
+}
+p {
+	text-align: center;
+}
+.btn{background-color:orange;}
+.form-group{
+        margin-left:400px;
+        margin-right:400px;
+        background-color:#F5F5F5;
+        width:500px;
+        height:250px;
+    }
+    .input-group1{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .form-group2{
+    
+             background-color:#F5F5F5;
+        width:500px;
+        height:250px;
+    }
+    .form-group3{
+       
+        background-color:#F5F5F5;
+        width:500px;
+        height:500px;
+    }
+    .form-group4{
+       margin-left:300px;
+        background-color:#F5F5F5;
+        width:500px;
+        height:700px;
+    }

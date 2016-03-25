@@ -1,0 +1,60 @@
+ #curSc{
+ color : #006699;
+ font-weight:bold;
+ text-align : center;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+ font-size: 28px;
+ top : 175px;
+ left:50px;
+ position:absolute;
+ }
+ #hSc{
+  color : #006699;
+ font-weight:bold;text-align : center;
+ font-family:"Comic Sans MS", cursive, sans-serif;font-family:Georgia;
+ font-size: 28px;
+ top : 225px;
+ left:50px;
+ position:absolute;
+ }
+ #curScore{
+ top : 175px;
+ left:300px;
+ position:absolute;
+ font-weight:bold;
+ text-align : center;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+ font-size: 28px;
+ color : white;
+ }
+ #hiScore{
+ top : 225px;
+ left:300px;
+ position:absolute;
+ font-weight:bold;
+ text-align : center;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+ font-size: 28px;
+ color : white;
+ }
+ #home{
+ font-size:36px;
+ color:white;
+ left : 75px;
+ top: 300px;
+ position:absolute;
+ }
+ #repeat{
+ font-size:36px;
+ color:white;
+ left:150px;
+ top:300px;
+ position:absolute;
+ }
+ #share{
+ font-size:36px;
+ color:white;
+ left:225px;
+ top:300px;
+ position:absolute;
+ }

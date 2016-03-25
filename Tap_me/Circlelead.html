@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/lead.css">
+    
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/celebrate.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+        var cs;
+        var hs;
+        function pri() {
+
+            // get scores from local storage 
+
+            cs = localStorage.getItem("circle_currentScore");
+            hs = localStorage.getItem("circle_highscore");
+            document.getElementById("curScore").innerHTML = cs;
+            document.getElementById("hiScore").innerHTML = hs;
+           
+        }
+
+        //jquery for ui components
+
+        $(document).ready(function () {
+            $("#home").click(function () {
+                window.location.href = "levels.html";
+            });
+            $("#repeat").click(function () {
+                window.location.href = "Circle.html";
+            });
+        });
+    </script>
+    <style>
+        body{
+            background-color: #0099cc;
+        }
+        #curSc{
+            color: white;
+             text-align : center;
+             font-family:"Comic Sans MS", cursive, sans-serif;
+         }
+        #curScore{
+            color: white;
+            text-align : center;
+            font-family:"Comic Sans MS", cursive, sans-serif;
+        }
+        #hSc{
+             color: white;
+            text-align : center;
+            font-family:"Comic Sans MS", cursive, sans-serif;
+        }
+         #hiScore{
+              color: white;
+              text-align : center;
+              font-family:"Comic Sans MS", cursive, sans-serif;
+         }
+    </style>
+
+</head>
+<body onload="pri()">
+   
+
+    <div id="lb">
+        <p id="curSc">Current Score</p>
+        <p id="curScore"></p><br><br>
+        <p id="hSc">High Score</p>
+        <p id="hiScore"></p><br><br>
+        <div id="home">
+            <i class="fa fa-home"></i>
+        </div>
+        <div id="repeat">
+            <i class="fa fa-repeat"></i>
+        </div>
+        <div id="share">
+            <i class="fa fa-share-alt-square"></i>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

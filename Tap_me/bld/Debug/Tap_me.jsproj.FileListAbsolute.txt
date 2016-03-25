@@ -1,0 +1,15 @@
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bin\Debug\ReverseMap\resources.pri
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bin\Debug\AppxManifest.xml
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bin\Debug\Tap_me.build.appxrecipe
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\priconfig.xml
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\priconfig.xml.intermediate
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\layout.resfiles
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\layout.resfiles.intermediate
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\resources.resfiles
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\resources.resfiles.intermediate
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\pri.resfiles
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\pri.resfiles.intermediate
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\qualifiers.txt
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\qualifiers.txt.intermediate
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,160 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/lead.css">
+   
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/celebrate.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+        var cs;
+        var hs;
+        function pri() {
+
+            //get scores from local storage
+
+            ehs = localStorage.getItem("crawl_highscore");
+            dhs = localStorage.getItem("walk_highscore");
+            mhs = localStorage.getItem("circle_highscore");
+            ahs = localStorage.getItem("run_highscore");
+            if (ehs == null) {
+                ehs = 0;
+            }
+            if (dhs == null) {
+                dhs = 0;
+            }
+            if (mhs == null) {
+                mhs = 0;
+            }
+            if (ahs == null) {
+                ahs = 0;
+            }
+            document.getElementById("easyhs").innerHTML = ehs;
+            document.getElementById("mediumhs").innerHTML = mhs;
+            document.getElementById("difficulths").innerHTML = dhs;
+            document.getElementById("advancedhs").innerHTML = ahs;
+        }
+
+        //jquery for ui components
+        $(document).ready(function () {
+            $("#home").click(function () {
+                window.location.href = "levels.html";
+            });
+           
+        });
+    </script>
+    <style type="text/css">
+        body{
+            background-color: #0099cc;
+        }
+        
+        #highScore{
+            color: white;
+            text-align : center;
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:50px;
+            top:50px;
+            left:70px;
+            position:absolute;
+        }
+        #levele{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 190px;
+            left : 80px;
+            position:absolute;
+        }
+        #levelm{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 300px;
+            left : 80px;
+            position:absolute;
+        }
+        #leveld{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 400px;
+            left : 80px;
+            position:absolute;
+        }
+        #levela{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 500px;
+            left : 80px;
+            position:absolute;
+        }
+        #easyhs{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 190px;
+            left : 350px;
+            position:absolute;
+        }
+        #mediumhs{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 300px;
+            left : 350px;
+            position:absolute;
+        }
+        #difficulths{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 400px;
+            left : 350px;
+            position:absolute;
+        }
+        #advancedhs{
+            color: white;
+           
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:30px;
+            top : 500px;
+            left : 350px;
+            position:absolute;
+        }
+
+    </style>
+
+</head>
+<body onload="pri()">
+    <p id="highScore">High Scores</p>
+
+    <div id="lb">
+        <p id="levele">Easy</p>
+
+        <p id="easyhs"></p>
+        <p id="levelm">Medium</p>
+        <p id="mediumhs"></p>
+        <p id="leveld">Difficult</p>
+        <p id="difficulths"></p>
+        <p id="levela">Advanced</p>
+        <p id="advancedhs"></p>
+        
+    </div>
+
+
+
+</body>
+</html>

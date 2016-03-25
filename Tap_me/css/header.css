@@ -1,0 +1,57 @@
+#header {
+    background-color: #0099cc;
+    color:white;
+    padding:40px;
+}
+#pause{
+position : absolute;
+left : 90px;
+top : 27px;
+font-size : 25px;
+}
+#play{
+position:absolute;
+left : 90px;
+top : 27px;
+font-size : 25px;
+}
+#timer{
+position:absolute;
+left:280px;
+top:27px;
+font-size : 25px;
+}
+#scores{
+position:absolute;
+left:285px;
+top:27px;
+font-size : 25px;
+}
+#txt{
+border-color:#0099cc;
+border-style:solid;
+color : white;
+left : 190px;
+top :27px;
+}
+#sc{
+border-color:#0099cc;
+border-style:solid;
+color : white;
+left : 290px;
+top:27px
+}
+#home{
+font-size:36px;
+ color:#0099cc;
+ left : 100px;
+ top: 250px;
+ position:absolute;
+}
+#rplay{
+font-size:36px;
+ color:#0099cc;
+ left : 180px;
+ top: 250px;
+ position:absolute;
+}

@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+       var nIntervId;
+        var score1 = 0;
+        var counter = 10;
+        var highscore;
+        var t;
+        var isTimerOn = false;
+        var rad;
+
+        //timer and leaderboard
+        function countdown() {
+            document.getElementById("txt").value = counter;
+            counter--;
+            if (counter < 0) {
+                localStorage.setItem("walk_currentScore", score1);
+                highscore = localStorage.getItem("walk_highscore");
+                if (highscore == null) {
+                    highscore = 0;
+                }
+                if (parseInt(highscore) <= score1) {
+                    localStorage.setItem("walk_highscore", score1);
+                }
+                clearInterval(nIntervId);
+                window.location = "Wlead.html";
+                return;
+            }
+            t = setTimeout("countdown();", 1000);
+        }
+        function stopMe() {
+            isTimeon = false;
+            clearTimeout(t);
+            clearInterval(nIntervId);
+        }
+        function startMe() {
+            if (!isTimerOn) {
+                isTimeOn = true;
+                countdown();
+            }
+        }
+
+        //change color with time
+        function changeColor() {
+            startMe();
+            nIntervId = setInterval(flashText, 900);
+        }
+
+
+        //logics for random color
+        function flashText() {
+            rad = Math.floor((Math.random() * 49) + 1);
+            var elems = document.getElementsByClassName("number");
+            for (var i = 0; i < elems.length; i++) {
+                elems[i].style.backgroundColor = "#006699";
+            }
+                document.getElementById(rad).style.backgroundColor = '#FFFFFF';
+                document.getElementById(rad).addEventListener("click", scoreT);
+        }
+
+        //scores and audio
+        function scoreT() {
+            var audio1 = document.getElementById('sound1');
+            audio1.play();
+            score1 = score1 + 1;
+            document.getElementById("sc").innerHTML = score1;
+            rm();
+        }
+       
+        //removing event listener
+
+        function rm() {
+            document.getElementById(rad).removeEventListener("click", scoreT);
+        }
+
+        //jquery for header components
+        $(document).ready(function () {
+            $(".glyphicon-home").hide();
+            $(".glyphicon-repeat").hide();
+            $(".glyphicon-pause").hide();
+                changeColor();
+                $(".glyphicon-play").hide();
+                $(".glyphicon-pause").show();
+            $(".glyphicon-pause").click(function () {
+                $("#header").hide();
+                $("#t").hide();
+                $(".glyphicon-home").show();
+                $(".glyphicon-repeat").show();
+                stopMe();
+            });
+            $(".glyphicon-repeat").click(function () {
+                $("#header").show();
+                $("#t").show();
+                changeColor();
+                $(".glyphicon-home").hide();
+                $(".glyphicon-repeat").hide();
+            });
+            $(".glyphicon-home").click(function () {
+                window.location.href = "levels.html";
+            });
+        });
+    </script>
+    <style>
+        
+
+        #t {
+            left: 40px;
+            top: 150px;
+            position: absolute;
+        }
+        td{
+            width : 50px;
+            height : 50px;
+        }
+        #scores{
+            left:30px;
+            top:100px;
+            position:absolute;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color:#0099cc;
+            
+        }
+        #sc {
+            left: 200px;
+            top: 100px;
+            position: absolute;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: white;
+            border-color:white;
+            font-size: 30px;
+        }
+         .badge{
+           background : #0099cc;
+       }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="pause">
+            <span class="glyphicon glyphicon-pause"></span>
+        </div>
+        <div id="play">
+            <span class="glyphicon glyphicon-play"></span>
+        </div>
+        <div id="timer">
+            <span class="glyphicon glyphicon-time"></span>
+            <input type="text" id="txt" style="background-color: #0099cc" size = "2">
+        </div>
+        
+
+    </div>
+    <div id="home">
+        <span class="glyphicon glyphicon-home"></span>
+    </div>
+    <div id="rplay">
+        <span class="glyphicon glyphicon-repeat"></span>
+    </div>
+    <br>
+    <span class="badge" id="sc"></span>
+    <audio id="sound1" src="CL.mp3"></audio>
+    <br><br> <br><br>
+    <table id="t" align="center" border="1">
+        <tr>
+            <td id="1" class="number" style="background-color : #006699"></td>
+            <td id="2" class="number" style="background-color : #006699"></td>
+            <td id="3" class="number" style="background-color : #006699"></td>
+            <td id="4" class="number" style="background-color : #006699"></td>
+            <td id="5" class="number" style="background-color : #006699"></td>
+            <td id="6" class="number" style="background-color : #006699"></td>
+            <td id="7" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="8" style="background-color : #006699"></td>
+            <td id="9" class="number" style="background-color : #006699"></td>
+            <td id="10" class="number" style="background-color : #006699"></td>
+            <td id="11" class="number" style="background-color : #006699"></td>
+            <td id="12" class="number" style="background-color : #006699"></td>
+            <td id="13" class="number" style="background-color : #006699"></td>
+            <td id="14" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="15" class="number" style="background-color : #006699"></td>
+            <td id="16" class="number" style="background-color : #006699"></td>
+            <td id="17" class="number" style="background-color : #006699"></td>
+            <td id="18" class="number" style="background-color : #006699"></td>
+            <td id="19" class="number" style="background-color : #006699"></td>
+            <td id="20" class="number" style="background-color : #006699"></td>
+            <td id="21" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="22" class="number" style="background-color : #006699"></td>
+            <td id="23" class="number" style="background-color : #006699"></td>
+            <td id="24" class="number" style="background-color : #006699"></td>
+            <td id="25" class="number" style="background-color : #006699"></td>
+            <td id="26" class="number" style="background-color : #006699"></td>
+            <td id="27" class="number" style="background-color : #006699"></td>
+            <td id="28" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="29" class="number" style="background-color : #006699"></td>
+            <td id="30" class="number" style="background-color : #006699"></td>
+            <td id="31" class="number" style="background-color : #006699"></td>
+            <td id="32" class="number" style="background-color : #006699"></td>
+            <td id="33" class="number" style="background-color : #006699"></td>
+            <td id="34" class="number" style="background-color : #006699"></td>
+            <td id="35" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="36" class="number" style="background-color : #006699"></td>
+            <td id="37" class="number" style="background-color : #006699"></td>
+            <td id="38" class="number" style="background-color : #006699"></td>
+            <td id="39" class="number" style="background-color : #006699"></td>
+            <td id="40" class="number" style="background-color : #006699"></td>
+            <td id="41" class="number" style="background-color : #006699"></td>
+            <td id="42" class="number" style="background-color : #006699"></td>
+        </tr>
+        <tr>
+            <td id="43" class="number" style="background-color : #006699"></td>
+            <td id="44" class="number" style="background-color : #006699"></td>
+            <td id="45" class="number" style="background-color : #006699"></td>
+            <td id="46" class="number" style="background-color : #006699"></td>
+            <td id="47" class="number" style="background-color : #006699"></td>
+            <td id="48" class="number" style="background-color : #006699"></td>
+            <td id="49" class="number" style="background-color : #006699"></td>
+        </tr>
+
+    </table>
+   
+
+</body>
+</html>

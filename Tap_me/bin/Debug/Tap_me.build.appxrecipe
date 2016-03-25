@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SABHITHA-PC</Machine>
+    <WindowsUser>sabhitha</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3fcd2f0d-62d3-4704-87cd-b1306411f514</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap-theme.css">
+      <PackagePath>Bootstrap\css\bootstrap-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap-theme.min.css">
+      <PackagePath>Bootstrap\css\bootstrap-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap.css">
+      <PackagePath>Bootstrap\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap.min.css">
+      <PackagePath>Bootstrap\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstraps.min.css">
+      <PackagePath>Bootstrap\css\bootstraps.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\dropdown.css">
+      <PackagePath>Bootstrap\css\dropdown.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\font-awesome.min.css">
+      <PackagePath>Bootstrap\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\main.css">
+      <PackagePath>Bootstrap\css\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\nav-custom2.css">
+      <PackagePath>Bootstrap\css\nav-custom2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\navbar-custom.css">
+      <PackagePath>Bootstrap\css\navbar-custom.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\sample.css">
+      <PackagePath>Bootstrap\css\sample.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\slider.css">
+      <PackagePath>Bootstrap\css\slider.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\celebrate.css">
+      <PackagePath>css\celebrate.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\header.css">
+      <PackagePath>css\header.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\lead.css">
+      <PackagePath>css\lead.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\normalize.css">
+      <PackagePath>css\normalize.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\TapMe.css">
+      <PackagePath>css\TapMe.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\css\font-awesome.css">
+      <PackagePath>font-awesome-4.5.0\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\css\font-awesome.min.css">
+      <PackagePath>font-awesome-4.5.0\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\ui-themed.css">
+      <PackagePath>css\ui-themed.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\ui-themed.theme-dark.css">
+      <PackagePath>css\ui-themed.theme-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\css\ui-themed.theme-light.css">
+      <PackagePath>css\ui-themed.theme-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap-theme.css.map">
+      <PackagePath>Bootstrap\css\bootstrap-theme.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\css\bootstrap.css.map">
+      <PackagePath>Bootstrap\css\bootstrap.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>Bootstrap\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\fontawesome-webfont.eot">
+      <PackagePath>font-awesome-4.5.0\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>Bootstrap\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\fontawesome-webfont.svg">
+      <PackagePath>font-awesome-4.5.0\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>Bootstrap\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf">
+      <PackagePath>font-awesome-4.5.0\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>Bootstrap\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\fontawesome-webfont.woff">
+      <PackagePath>font-awesome-4.5.0\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>Bootstrap\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2">
+      <PackagePath>font-awesome-4.5.0\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\js\bootstrap.js">
+      <PackagePath>Bootstrap\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\js\bootstrap.min.js">
+      <PackagePath>Bootstrap\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\js\jquery.js">
+      <PackagePath>Bootstrap\js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Bootstrap\js\npm.js">
+      <PackagePath>Bootstrap\js\npm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\js\celebrate.js">
+      <PackagePath>js\celebrate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\js\jquery-1.11.3.js">
+      <PackagePath>js\jquery-1.11.3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\js\jquery-2.1.1.js">
+      <PackagePath>js\jquery-2.1.1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\js\jquery.circleGraphic.js">
+      <PackagePath>js\jquery.circleGraphic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Circle.html">
+      <PackagePath>Circle.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Circlelead.html">
+      <PackagePath>Circlelead.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Clead.html">
+      <PackagePath>Clead.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\crawlf.html">
+      <PackagePath>crawlf.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\help.html">
+      <PackagePath>help.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\HighScores.html">
+      <PackagePath>HighScores.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\levels.html">
+      <PackagePath>levels.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Rlead.html">
+      <PackagePath>Rlead.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\runf.html">
+      <PackagePath>runf.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\walk.html">
+      <PackagePath>walk.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\Wlead.html">
+      <PackagePath>Wlead.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\CL.mp3">
+      <PackagePath>CL.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\fonts\FontAwesome.otf">
+      <PackagePath>font-awesome-4.5.0\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\HELP-US-OUT.txt">
+      <PackagePath>font-awesome-4.5.0\HELP-US-OUT.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\animated.less">
+      <PackagePath>font-awesome-4.5.0\less\animated.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\bordered-pulled.less">
+      <PackagePath>font-awesome-4.5.0\less\bordered-pulled.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\core.less">
+      <PackagePath>font-awesome-4.5.0\less\core.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\fixed-width.less">
+      <PackagePath>font-awesome-4.5.0\less\fixed-width.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\font-awesome.less">
+      <PackagePath>font-awesome-4.5.0\less\font-awesome.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\icons.less">
+      <PackagePath>font-awesome-4.5.0\less\icons.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\larger.less">
+      <PackagePath>font-awesome-4.5.0\less\larger.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\list.less">
+      <PackagePath>font-awesome-4.5.0\less\list.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\mixins.less">
+      <PackagePath>font-awesome-4.5.0\less\mixins.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\path.less">
+      <PackagePath>font-awesome-4.5.0\less\path.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\rotated-flipped.less">
+      <PackagePath>font-awesome-4.5.0\less\rotated-flipped.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\stacked.less">
+      <PackagePath>font-awesome-4.5.0\less\stacked.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\less\variables.less">
+      <PackagePath>font-awesome-4.5.0\less\variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\font-awesome.scss">
+      <PackagePath>font-awesome-4.5.0\scss\font-awesome.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_animated.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_animated.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_bordered-pulled.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_bordered-pulled.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_core.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_core.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_fixed-width.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_fixed-width.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_icons.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_larger.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_larger.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_list.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_mixins.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_path.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_path.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_rotated-flipped.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_rotated-flipped.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_stacked.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_stacked.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\font-awesome-4.5.0\scss\_variables.scss">
+      <PackagePath>font-awesome-4.5.0\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\images\tbg.PNG">
+      <PackagePath>images\tbg.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\images\tm_bg.jpg">
+      <PackagePath>images\tm_bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sabhitha\documents\visual studio 2013\Projects\Tap_me\Tap_me\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
