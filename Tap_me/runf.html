@@ -6,13 +6,10 @@
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
-   
-
-`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/jquery-1.11.3.js"></script>
-<script type = "text/javascript">
+        <script type = "text/javascript">
     var nIntervId;
     var score1 = 0;
     var counter = 20;
@@ -126,12 +123,14 @@
             $("#t").hide();
             $(".glyphicon-home").show();
             $(".glyphicon-repeat").show();
+            $("#sc").hide();
             stopMe();
         });
         $(".glyphicon-repeat").click(function () {
             $("#header").show();
             $("#t").show();
             changeColor();
+            $("#sc").show();
             $(".glyphicon-home").hide();
             $(".glyphicon-repeat").hide();
         });
@@ -143,7 +142,7 @@
     <style>
     #t {
             left: 40px;
-            top: 150px;
+            top: 250px;
             position: absolute;
         }
         td{
@@ -160,7 +159,7 @@
         }
         #sc{
             left:200px;
-            top:100px;
+            top:150px;
             position:absolute;
             font-family: "Comic Sans MS", cursive, sans-serif;
             color:white;
